@@ -1,0 +1,17 @@
+.custom-navbar {
+    height: 60px; 
+    margin-bottom: 0%;
+  }
+
+.logout-button {
+    border-radius: 20px; 
+    padding: 5px 20px;
+    margin-left: 1150px;
+  }
+
+  .logo {
+    max-height: 40px; 
+    margin-left: -100px;
+  }
+  
+  

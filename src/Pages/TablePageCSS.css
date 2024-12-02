@@ -1,0 +1,218 @@
+
+body {
+  background-color: #F6FAFB; 
+}
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+button {
+  margin-right: 5px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-box h2 {
+  margin-bottom: 10px;
+}
+
+.modal-box label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.modal-box input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.modal-box button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.modal-box button:hover {
+  background-color: #45a049;
+}
+
+.modal-box button:last-child {
+  background-color: #f44336;
+}
+
+.modal-box button:last-child:hover {
+  background-color: #d32f2f;
+}
+
+.active-button {
+  width: 80px; 
+  height: 40px; 
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.active-button:hover {
+  background-color: #45a049;
+}
+
+.inactive-button {
+  width: 80px; 
+  height: 40px; 
+  background-color: #f44336;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.inactive-button:hover {
+  background-color: #d32f2f;
+}
+
+.action-button {
+  width: 80px; 
+  height: 40px; 
+  background-color: white; 
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.action-button:hover {
+  background-color: lightgrey; 
+}
+
+
+.table-container {
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+  padding: 20px; 
+  background-color: #FEFEFE;
+  border-top: 15px solid #077648;
+}
+
+.search-bar {
+  width: 400px; 
+  padding: 8px;
+  border-radius: 20px;
+  border: 1px solid black; 
+  margin: 0px auto 10px; 
+}
+
+.clickable-header {
+  cursor: pointer;
+}
+
+.clickable-header:hover {
+  text-decoration: underline;
+}
+
+.logout-button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logout-button {
+  background-color: #077648;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #45a049;
+}
+
+.manage-button {
+  background-color: #077648;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.manage-button:hover {
+  background-color: #45a049;
+}
+
+.user-ids-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-height: 200px; /* Set maximum height to enable scrolling if needed */
+  overflow-y: auto; /* Enable vertical scrolling if content exceeds box height */
+}
+
+.user-ids-box ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-ids-box ul li {
+  margin-bottom: 5px;
+}
+
+.deleteButton {
+  border: none;
+  background: none;
+  color: inherit;
+  padding: 0;
+  cursor: pointer;
+}

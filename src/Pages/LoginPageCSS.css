@@ -1,0 +1,63 @@
+/* Apply styles to the green stripe */
+.stripe.green-stripe {
+    background-color: green;
+    height: 20px;
+}
+
+/* Apply styles to the header container */
+.header-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust alpha to control transparency */
+    padding: 10px; /* Add padding */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+    text-align: center; /* Center align the text */
+}
+
+/* Apply styles to the Commerce Bank Login text */
+.header-container > h1 {
+    margin: 0; /* Remove default margin */
+}
+
+/* Apply styles to the header */
+.App-header {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.9); /* Adjust alpha to control transparency */
+    text-align: center; /* Center align the text */
+}
+
+/* Apply styles to the login box */
+.login-box {
+    padding: 20px; /* Add padding to create space between content and border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth effect */
+    margin-top: 20px; /* Adjust margin-top as needed */
+}
+
+/* Apply styles to the login form elements */
+.login-box label {
+    margin-bottom: 10px;
+}
+
+.login-box input {
+    padding: 8px;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+.login-box button {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-box button:hover {
+    background-color: darkgreen;
+}
